@@ -63,7 +63,7 @@ const translations = {
     score: 'Score',
     local: 'Local',
     live: 'Live',
-    superTranslator: 'Super Translator',
+    superTranslator: 'Founding Father',
     educationalArena: 'Educational Arena',
   },
   ar: {
@@ -127,7 +127,7 @@ const translations = {
     score: 'النتيجة',
     local: 'محلي',
     live: 'مباشر',
-    superTranslator: 'المترجم الخارق',
+    superTranslator: 'رائد الحضارة',
     educationalArena: 'الساحة التعليمية',
   }
 };
