@@ -31,7 +31,7 @@ const LobbyScreen: React.FC<LobbyScreenProps> = ({ onSelectGame }) => {
         <p className="text-slate-500 text-sm sm:text-lg font-medium max-w-md mx-auto">{t('lobbySubtitle')}</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <motion.button 
+        {/* <motion.button 
           whileHover={{ y: -5 }} 
           onClick={() => handleSelectGame('TRANSLATOR')}
           className="group bg-white p-10 rounded-[3rem] shadow-2xl border-2 border-transparent hover:border-indigo-500 transition-all text-left flex flex-col h-full"
@@ -42,7 +42,7 @@ const LobbyScreen: React.FC<LobbyScreenProps> = ({ onSelectGame }) => {
           <h3 className="text-3xl font-black mb-2 uppercase tracking-tighter">{t('theoryArena')}</h3>
           <p className="text-slate-500 text-sm leading-relaxed flex-grow">{t('theoryArenaDesc')}</p>
           <div className="mt-8 flex items-center gap-2 text-indigo-600 font-black text-xs uppercase tracking-widest">{t('enterArena')} <ArrowRight size={16} /></div>
-        </motion.button>
+        </motion.button> */}
         <motion.button 
           whileHover={{ y: -5 }} 
           onClick={() => handleSelectGame('TERM_HUNTER')}
